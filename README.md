@@ -5,6 +5,10 @@
       前端(feature tracker),
       后端(sliding window, loop closure)，
       还加了初始化(visual-imu aligment)
+      
+![](https://images2018.cnblogs.com/blog/699318/201804/699318-20180414235214918-500793897.png)
+      
+      
 # Feature tracker 特征跟踪
     这部分代码在feature_tracker包下面，主要是接收图像topic,
     使用KLT光流算法跟踪特征点，同时保持每一帧图像有最少的(100-300)个特征点。
